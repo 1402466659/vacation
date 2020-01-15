@@ -1,3 +1,4 @@
+
 import java.io.*;
 
 /**
@@ -8,7 +9,7 @@ import java.io.*;
  **/
 public class PicCopy  {
     public static void main(String[] args) throws IOException {
-        //复制文本——创建缓冲字符流
+        //复制文本——创建缓冲字符流     
         BufferedReader br = new BufferedReader(new FileReader("e:\\study\\123.txt"));
         BufferedWriter bw = new BufferedWriter(new FileWriter("e:\\study\\456.txt"));
         String content = "";
